@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const authSpan = document.getElementById('auth-links');
         if (isLoggedIn) {
           authSpan.innerHTML = `
-            <a href="/mypage">마이페이지</a>
+            <a href="../code/mypage.html">마이페이지</a>
             <a href="/logout">로그아웃</a>
           `;
         } else {
